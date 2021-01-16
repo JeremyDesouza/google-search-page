@@ -63,7 +63,6 @@
 
 ul { 
     list-style-type:none;
-    
 }
 
 a {
@@ -72,25 +71,26 @@ a {
 }
 
 .options-section {
+    
     display:inline-block;
     vertical-align:middle;
-    
 }
+
 .settings-section {
-    position:absolute;
+    position: absolute;
     display:inline-block;
     vertical-align:middle;
     overflow:hidden;
     padding-left:90px;
+    bottom:0;
 }
 
 
 .options li {
-    
-    width:auto;
     position:relative;
     display:inline-block;
     padding-right:10px;
+    
 }
 
 .settings li {
@@ -105,5 +105,45 @@ a {
 }
 
 
+main {
+    margin-top:15px;
+    margin-left:140px;
+}
+
+.num-results {
+    font-family:arial;
+    font-size:14px;
+    color:rgb(112, 117, 122);
+}
+
+.snippet {
+    margin-bottom:28px;
+}
+
+.search-results {
+    margin-top:15px;
+}
+
+.url {
+    font-family:arial;
+    font-size:14px;
+}
 
 
+.snippet-title {
+    font-family:arial;
+    font-size:20px;
+    color: rgb(26,13,171);
+    padding-top:4px;
+    margin-bottom:3px;
+}
+
+.description {
+    font-family:arial;
+    font-size:14px;
+    color:rgb(77, 81, 86);
+}
+
+.search-link:hover > .snippet-title {
+    text-decoration:underline;
+}
