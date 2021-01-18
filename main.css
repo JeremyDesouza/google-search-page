@@ -1,6 +1,6 @@
 
 body {
-    margin:0px;
+    margin: 0 0 0 10px;
 }
 
 .search-form {
@@ -53,10 +53,8 @@ body {
     padding: 0px 13px 0px 13px;
 }
 
-
 .nav {
     position:relative;
-    
     height:50px;
     margin-left:150px;
     font-family:arial;
@@ -88,9 +86,7 @@ a {
     overflow:hidden;
 }
 
-
 .options-section li {
-    
     display:inline-block;
     padding-right:10px;
     line-height:50px;
@@ -108,13 +104,14 @@ a {
     top:6px;
 }
 
-
 main {
     position:relative;
     margin-top:15px;
     margin-left:140px;
     width:700px;
 }
+
+/* SEARCH RESULTS */
 
 .num-results {
     font-family:arial;
@@ -124,7 +121,6 @@ main {
 
 .snippet {
     margin-bottom:28px;
-    
 }
 
 .search-results {
@@ -135,7 +131,6 @@ main {
     font-family:arial;
     font-size:14px;
 }
-
 
 .snippet-title {
     font-family:arial;
@@ -157,12 +152,11 @@ main {
     text-decoration:underline;
 }
 
+/* RELATED QUESTIONS TABLE */
 
 .rel-questions-tbl {
     border-collapse:collapse;
     width:100%;
-   
-    
 }
 
 .rel-questions-tbl {
@@ -174,9 +168,6 @@ main {
     border: 1px solid rgb(223, 225, 229);
     font-size:16px;
     padding: 9px 0 9px 16px;
-    
-    
-    
 }
 
 .rel-questions-tbl th {
@@ -193,8 +184,10 @@ main {
     font-family:arial;
     font-size:12px;
     font-style: italic;
-
 }
+
+
+/* RELATED SEARCHES */
 
 .related-searches-tbl {
     font-size:14px;
@@ -216,7 +209,31 @@ main {
     font-weight:700;
 }
 
+/* PAGINATION */
 
+.goog-pagination {
+    margin-top:15px;
+    margin-bottom:25px;
+}
+
+.pg-img {
+    display:block;
+    margin:auto;
+    width:300px;
+}
+
+.pages {
+    text-align:center;
+}
+
+.page {
+    padding:4px;
+    font-family:arial;
+    font-size:14px;
+    text-decoration: underline;
+}
+
+/* FOOTER */
 footer {
     min-width:100vw;
     height:50px;
@@ -230,12 +247,13 @@ footer {
 }
     
 .footer-links li {
-    
     display:inline-block;
     padding-left:20px;
     font-size:14px;
-    
-    
-    
-
 }
+
+
+
+
+   
+
